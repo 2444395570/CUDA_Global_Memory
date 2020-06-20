@@ -4,4 +4,6 @@ cuda全局内存进行读写。
 存储空间按层次结构划分为不同的组块，比如全局内存、共享内存、本地内存、常量内存和纹理内存，每个组块都可以从程序中的不同点访问。
 ![GPU架构图](https://github.com/2444395570/CUDA_Global_Memory/blob/master/GPU_1.jpg)![存储器架构图](https://github.com/2444395570/CUDA_Global_Memory/blob/master/GPU_2.jpg)
 
+每个线程都有自己的本地存储器和寄存器堆。
+
 
